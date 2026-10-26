@@ -1,6 +1,6 @@
 # datajud-mcp
 
-[![CI](https://github.com/OWNER/datajud-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/datajud-mcp/actions/workflows/ci.yml)
+[![CI](https://github.com/JoaoLuizRTelo/datajud-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/JoaoLuizRTelo/datajud-mcp/actions/workflows/ci.yml)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
@@ -95,7 +95,7 @@ All tools are read-only, validate their input with zod, declare an `outputSchema
 Requires Node.js 22.12 or newer.
 
 ```bash
-git clone https://github.com/OWNER/datajud-mcp.git
+git clone https://github.com/JoaoLuizRTelo/datajud-mcp.git
 cd datajud-mcp
 npm install
 cp .env.example .env   # then fill in the values below
@@ -154,7 +154,7 @@ npm run agent -- 0713383-43.2025.8.07.0006 --force       # bypass the pre-check
 ./scripts/demo.sh                                        # the two-run demo used for the GIF
 ```
 
-The CLI starts the MCP server as a child process, runs the pre-check, and if anything changed lets Claude call the tools and answer with a schema-constrained `CaseSummary`:
+The CLI starts the MCP server as a child process, runs the pre-check, and if anything changed lets Claude call the tools and answer with a schema-constrained `CaseSummary`.
 
 <!-- EXAMPLE_OUTPUT -->
 
