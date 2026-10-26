@@ -1,0 +1,827 @@
+{
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_id": "TJMG_G1_50005175420258130082",
+        "_source": {
+          "numeroProcesso": "50005175420258130082",
+          "tribunal": "TJMG",
+          "grau": "G1",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20250404154634",
+          "dataHoraUltimaAtualizacao": "2026-10-23T18:46:37.164000Z",
+          "classe": {
+            "codigo": 283,
+            "nome": "Ação Penal - Procedimento Ordinário"
+          },
+          "assuntos": [
+            {
+              "codigo": 3632,
+              "nome": "Crimes de Trânsito"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 3676,
+            "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+            "codigoMunicipioIBGE": 3108206
+          },
+          "sistema": {
+            "codigo": 1,
+            "nome": "PJe"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2025-04-04T15:46:34.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-04-07T17:46:36.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "convertido em diligência",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 98
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-04-07T17:46:49.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 391,
+              "nome": "Denúncia",
+              "dataHora": "2025-04-30T21:10:09.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 14739,
+              "nome": "Evolução da Classe Processual",
+              "dataHora": "2025-05-05T10:05:47.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "TJBA",
+                  "descricao": "classe_anterior",
+                  "codigo": 26,
+                  "valor": 279
+                },
+                {
+                  "nome": "TJGO",
+                  "descricao": "classe_nova",
+                  "codigo": 27,
+                  "valor": 283
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-05T17:20:15.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-06T08:13:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-06T08:13:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-05-06T08:15:38.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-05-07T11:34:24.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-08T13:29:29.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-05-30T08:45:53.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-06-12T08:34:37.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-07-03T11:31:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "não entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 8
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-07-03T11:58:47.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-07-15T01:05:07.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "não-realizada",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 14
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-07-15T19:56:35.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-12T15:06:54.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-10-15T10:42:16.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-10-15T11:02:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "não entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 8
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-10-15T12:53:51.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-12-04T14:14:39.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-12-19T14:04:42.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-12-19T14:43:24.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-01-29T00:16:45.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "desaforamento",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 28
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-01-30T11:48:52.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-02-02T11:40:56.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-02-04T15:44:20.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 12750,
+              "nome": "de Instrução e Julgamento",
+              "dataHora": "2026-02-04T15:49:26.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                },
+                {
+                  "nome": "designada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 9
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-02-06T15:09:43.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-02-08T15:39:09.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-06-12T10:39:18.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-06-12T17:42:47.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 12750,
+              "nome": "de Instrução e Julgamento",
+              "dataHora": "2026-06-12T17:44:18.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "redesignada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 10
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-06-12T17:53:46.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-06-14T15:53:49.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-09-14T15:42:18.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-09-14T16:55:18.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Ofício",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 79
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-09-16T12:49:22.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Ofício",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 79
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2026-09-29T10:26:42.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-09-30T11:54:01.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-10-08T11:29:37.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-10-08T14:00:09.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-10-21T07:16:16.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2026-10-21T07:17:38.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2026-10-21T07:26:40.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2026-10-21T07:28:36.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-10-21T07:30:19.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 12750,
+              "nome": "de Instrução e Julgamento",
+              "dataHora": "2026-10-22T14:19:38.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                },
+                {
+                  "nome": "realizada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 13
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-10-22T15:50:05.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2025-12-02T22:01:32.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 12387,
+              "nome": "Decisão de Saneamento e Organização",
+              "dataHora": "2026-02-02T20:58:24.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 12164,
+              "nome": "Outras Decisões",
+              "dataHora": "2026-06-12T17:16:14.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            },
+            {
+              "codigo": 12282,
+              "nome": "Expedida/Certificada",
+              "dataHora": "2026-06-12T17:42:27.000Z",
+              "orgaoJulgador": {
+                "nome": "Vara Única da Comarca de Bonfinópolis de Minas",
+                "codigo": "3676"
+              }
+            }
+          ],
+          "id": "TJMG_G1_50005175420258130082",
+          "@timestamp": "2026-10-23T18:46:37.164000Z"
+        },
+        "_index": "api_publica_tjmg",
+        "_score": 16.246231
+      }
+    ],
+    "max_score": 16.246231
+  },
+  "took": 30067,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  }
+}

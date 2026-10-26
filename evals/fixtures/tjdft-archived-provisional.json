@@ -1,0 +1,1542 @@
+{
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_id": "TJDFT_G1_07102207720248070010",
+        "_source": {
+          "numeroProcesso": "07102207720248070010",
+          "tribunal": "TJDFT",
+          "grau": "G1",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20241021111216",
+          "dataHoraUltimaAtualizacao": "2026-10-16T21:20:23.842000Z",
+          "classe": {
+            "codigo": 156,
+            "nome": "Cumprimento de sentença"
+          },
+          "assuntos": [
+            {
+              "codigo": 9149,
+              "nome": "Valor da Execução / Cálculo / Atualização"
+            },
+            {
+              "codigo": 9163,
+              "nome": "Penhora / Depósito/ Avaliação "
+            },
+            {
+              "codigo": 10655,
+              "nome": "Honorários Advocatícios"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 7048,
+            "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+            "codigoMunicipioIBGE": 5300108
+          },
+          "sistema": {
+            "codigo": 1,
+            "nome": "PJe"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2024-10-21T11:12:20.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2024-10-21T14:43:15.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2024-10-21T15:17:24.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-10-23T10:18:31.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-05T18:42:27.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-06T10:31:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-06T10:31:26.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Aviso de recebimento (AR)",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 74
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-11-15T05:20:00.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2024-11-18T07:57:40.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-18T07:58:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-18T07:58:43.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-11-26T09:37:44.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-26T10:34:06.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2024-11-26T10:34:25.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Aviso de recebimento (AR)",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 74
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-12-08T02:45:11.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-01-30T11:56:20.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-01-30T11:56:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-01-30T18:41:49.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-01-30T18:56:15.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2025-02-26T23:39:08.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "em diligência",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 37
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-02-27T16:02:31.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-06-02T12:43:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-06-02T14:24:20.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-07-15T12:23:57.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-07-18T15:51:29.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-08-28T17:00:06.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-08-29T09:32:41.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-08-29T11:05:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-16T16:26:13.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-16T16:26:36.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Aviso de recebimento (AR)",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 74
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-10-08T02:02:42.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-11-06T11:59:53.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-12-02T13:55:49.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-12-15T12:00:09.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-01-26T08:52:29.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-01-30T07:40:45.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-01-30T07:41:07.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-05-08T19:10:33.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-05-10T19:33:09.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-05-27T16:27:54.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-05-28T11:05:00.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-07-14T08:21:04.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-07-14T11:10:22.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-07-28T16:14:02.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-07-28T16:19:24.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-07-28T16:19:28.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-01-30T03:27:38.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-02-03T03:06:52.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-02-04T03:00:13.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-02-04T03:00:14.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-02-05T03:05:53.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-02-05T03:05:53.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-02-06T14:34:38.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-02-25T02:44:01.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-02-26T02:39:25.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 848,
+              "nome": "Trânsito em julgado",
+              "dataHora": "2025-02-26T23:38:45.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 980,
+              "nome": "Remessa",
+              "dataHora": "2025-02-27T14:20:40.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-03-01T02:31:35.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-03-02T02:30:48.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-03-03T02:33:02.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-03-06T02:31:44.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-03-14T02:42:19.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-06-24T03:03:43.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-06-24T03:03:43.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-07-15T03:43:49.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-07-18T02:54:44.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-07-18T02:54:45.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 14739,
+              "nome": "Evolução da Classe Processual",
+              "dataHora": "2025-09-16T16:22:28.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-09-18T02:55:34.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-09-18T02:55:34.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-10-31T03:44:40.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-12-02T09:42:45.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-12-04T03:01:41.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-12-05T04:28:33.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-12-13T08:28:14.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-12-17T09:15:47.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-12-18T07:36:31.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-01-23T02:21:34.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2026-01-29T02:21:53.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2026-01-30T02:23:21.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2026-05-13T02:18:20.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2026-05-14T02:18:18.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-05-21T02:19:24.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2026-06-18T02:17:51.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2026-06-21T02:21:58.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-07-11T02:20:00.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2026-07-25T02:18:16.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2026-07-25T02:18:17.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2026-08-20T02:18:30.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2026-08-21T02:17:53.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-09-11T02:18:21.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12164,
+              "nome": "Outras Decisões",
+              "dataHora": "2024-11-05T18:42:26.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2024-11-05T18:42:28.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12307,
+              "nome": "Decretação de revelia",
+              "dataHora": "2025-01-30T18:41:48.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-01-30T18:41:52.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 219,
+              "nome": "Procedência",
+              "dataHora": "2025-01-31T16:21:41.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-01-31T16:21:44.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-02-27T14:20:41.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 246,
+              "nome": "Definitivo",
+              "dataHora": "2025-03-14T13:46:43.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 893,
+              "nome": "Desarquivamento",
+              "dataHora": "2025-06-02T14:23:15.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 15085,
+              "nome": "Emenda à Inicial",
+              "dataHora": "2025-06-18T08:25:13.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-06-18T08:25:15.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12430,
+              "nome": "Arquivamento",
+              "dataHora": "2025-07-15T22:06:39.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-07-15T22:06:41.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 246,
+              "nome": "Definitivo",
+              "dataHora": "2025-07-18T15:52:00.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 893,
+              "nome": "Desarquivamento",
+              "dataHora": "2025-08-29T04:47:53.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12164,
+              "nome": "Outras Decisões",
+              "dataHora": "2025-09-16T15:39:26.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-09-16T15:39:29.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 276,
+              "nome": "Execução frustrada",
+              "dataHora": "2026-01-26T23:33:20.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2026-01-26T23:33:23.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 245,
+              "nome": "Provisório",
+              "dataHora": "2026-01-30T07:41:13.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 893,
+              "nome": "Desarquivamento",
+              "dataHora": "2026-05-09T04:01:36.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 245,
+              "nome": "Provisório",
+              "dataHora": "2026-05-21T13:46:55.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 893,
+              "nome": "Desarquivamento",
+              "dataHora": "2026-05-28T04:06:30.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12455,
+              "nome": "Indeferimento",
+              "dataHora": "2026-06-15T19:09:35.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2026-06-15T19:09:37.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 245,
+              "nome": "Provisório",
+              "dataHora": "2026-07-12T14:19:27.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 893,
+              "nome": "Desarquivamento",
+              "dataHora": "2026-07-14T11:10:14.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12455,
+              "nome": "Indeferimento",
+              "dataHora": "2026-07-21T18:25:29.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2026-07-21T18:25:31.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 12455,
+              "nome": "Indeferimento",
+              "dataHora": "2026-08-17T23:29:40.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2026-08-17T23:29:42.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            },
+            {
+              "codigo": 245,
+              "nome": "Provisório",
+              "dataHora": "2026-09-11T15:23:51.000Z",
+              "orgaoJulgador": {
+                "nome": "2? VARA C?VEL, DE FAM?LIA E DE ?RF?OS E SUCESS?ES DE SANTA MARIA",
+                "codigo": "7048"
+              }
+            }
+          ],
+          "id": "TJDFT_G1_07102207720248070010",
+          "@timestamp": "2026-10-16T21:20:23.842000Z"
+        },
+        "_index": "api_publica_tjdft",
+        "_score": 11.71939
+      }
+    ],
+    "max_score": 11.71939
+  },
+  "took": 30262,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  }
+}

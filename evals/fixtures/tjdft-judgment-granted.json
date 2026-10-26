@@ -1,0 +1,1006 @@
+{
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_id": "TJDFT_G1_07133834320258070006",
+        "_source": {
+          "numeroProcesso": "07133834320258070006",
+          "tribunal": "TJDFT",
+          "grau": "G1",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20250908204939",
+          "dataHoraUltimaAtualizacao": "2026-10-16T21:20:23.116000Z",
+          "classe": {
+            "codigo": 283,
+            "nome": "Ação Penal - Procedimento Ordinário"
+          },
+          "assuntos": [
+            {
+              "codigo": 3566,
+              "nome": "Resistência "
+            },
+            {
+              "codigo": 5571,
+              "nome": "Dano Qualificado"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 7092,
+            "nome": "VARA CRIMINAL DE SOBRADINHO",
+            "codigoMunicipioIBGE": 5300108
+          },
+          "sistema": {
+            "codigo": 1,
+            "nome": "PJe"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2025-09-08T20:49:40.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2025-09-08T20:49:41.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "encerradas atribuição CEJUSC",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 190
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-08T20:49:42.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2025-09-08T20:49:43.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "em diligência",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 37
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-09T04:37:17.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-09T07:52:06.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-09T11:47:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 12742,
+              "nome": "de Custódia",
+              "dataHora": "2025-09-09T16:00:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "designada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 9
+                },
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-09T16:19:39.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-10T09:29:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-10T11:27:04.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-10T11:30:56.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-10T11:45:11.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 12742,
+              "nome": "de Custódia",
+              "dataHora": "2025-09-10T11:53:28.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "realizada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 13
+                },
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-10T15:17:28.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-11T12:38:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Alvará",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 73
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2025-09-12T08:02:51.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "em diligência",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 37
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-12T14:03:24.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-12T14:03:39.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-24T23:12:37.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-24T23:12:53.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-09-25T12:10:49.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2025-09-25T14:21:37.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "encerradas atribuição CEJUSC",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 190
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-09-25T14:34:55.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-29T15:58:13.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-10-07T06:41:01.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-10-09T16:26:12.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-10-13T15:35:27.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-11-03T17:25:26.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-11-24T14:59:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-12-04T14:31:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 12750,
+              "nome": "de Instrução e Julgamento",
+              "dataHora": "2025-12-12T13:28:07.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "designada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 9
+                },
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-12-12T13:28:48.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-12-12T13:29:13.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-12-27T10:06:34.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-01-07T23:36:20.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Petição (outras)",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 57
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-03-12T13:43:39.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-03-18T19:12:56.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Ofício",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 79
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-03-19T15:07:35.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2026-04-06T15:49:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 12750,
+              "nome": "de Instrução e Julgamento",
+              "dataHora": "2026-04-23T13:07:14.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "realizada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 13
+                },
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-04-23T13:07:33.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-05-13T14:23:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Alegações finais",
+                  "descricao": "tipo_de_peticao",
+                  "codigo": 19,
+                  "valor": 43
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-05-13T16:14:17.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 818,
+              "nome": "Liberdade provisória",
+              "dataHora": "2025-09-10T11:53:15.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 14738,
+              "nome": "Retificação de Classe Processual",
+              "dataHora": "2025-09-12T08:02:51.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 391,
+              "nome": "Denúncia",
+              "dataHora": "2025-09-25T16:44:37.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 14739,
+              "nome": "Evolução da Classe Processual",
+              "dataHora": "2025-09-29T14:59:24.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-08T20:49:43.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-08T20:49:44.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-10T12:10:24.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-12T08:02:34.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 14999,
+              "nome": "Iniciada Tramitação Direta entre MP e Autoridade Policial",
+              "dataHora": "2025-09-12T14:03:46.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-24T23:12:54.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 15000,
+              "nome": "Finalizada Tramitação Direta entre MP e Autoridade Policial",
+              "dataHora": "2025-09-25T12:10:43.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2025-09-25T13:43:56.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-09-25T13:43:57.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-09-25T16:44:38.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 12387,
+              "nome": "Decisão de Saneamento e Organização",
+              "dataHora": "2025-12-09T12:36:47.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2025-12-09T12:36:48.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2026-04-23T13:07:02.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 219,
+              "nome": "Procedência",
+              "dataHora": "2026-10-08T17:56:19.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2026-10-08T17:56:20.000Z",
+              "orgaoJulgador": {
+                "nome": "VARA CRIMINAL DE SOBRADINHO",
+                "codigo": "7092"
+              }
+            }
+          ],
+          "id": "TJDFT_G1_07133834320258070006",
+          "@timestamp": "2026-10-16T21:20:23.116000Z"
+        },
+        "_index": "api_publica_tjdft",
+        "_score": 12.566689
+      }
+    ],
+    "max_score": 12.566689
+  },
+  "took": 31800,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  }
+}

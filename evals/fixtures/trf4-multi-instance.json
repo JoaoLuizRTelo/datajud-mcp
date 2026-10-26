@@ -1,0 +1,1142 @@
+{
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_id": "TRF4_JE_50003042620244047112",
+        "_source": {
+          "numeroProcesso": "50003042620244047112",
+          "tribunal": "TRF4",
+          "grau": "JE",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20240119142827",
+          "dataHoraUltimaAtualizacao": "2026-10-09T18:07:33.654000Z",
+          "classe": {
+            "codigo": 156,
+            "nome": "Cumprimento de sentença"
+          },
+          "assuntos": [
+            {
+              "codigo": 14828,
+              "nome": "Urbano"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 11967,
+            "nome": "1ª Vara Federal de Santana do Livramento",
+            "codigoMunicipioIBGE": 4317103
+          },
+          "sistema": {
+            "codigo": 4,
+            "nome": "Projudi"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 14739,
+              "nome": "Evolução da Classe Processual",
+              "dataHora": "2026-10-05T17:10:00.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2025-04-04T15:30:14.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "em grau de recurso",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 38
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-03-07T01:03:52.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-03-03T21:44:18.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-02-28T18:13:03.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2024-12-06T13:49:31.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12749,
+              "nome": "de Instrução",
+              "dataHora": "2024-11-18T12:40:44.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "realizada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 13
+                },
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12749,
+              "nome": "de Instrução",
+              "dataHora": "2024-10-23T17:44:47.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "designada",
+                  "descricao": "situacao_da_audiencia",
+                  "codigo": 15,
+                  "valor": 9
+                },
+                {
+                  "nome": "Juiz(a)",
+                  "descricao": "dirigida_por",
+                  "codigo": 36,
+                  "valor": 185
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2024-03-04T10:03:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 36,
+              "nome": "Redistribuição",
+              "dataHora": "2024-01-19T14:28:27.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "criação de unidade judiciária",
+                  "descricao": "motivo_da_redistribuicao",
+                  "codigo": 17,
+                  "valor": 35
+                },
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2024-01-19T14:28:27.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Vara Federal de Canoas",
+                "codigo": "17794"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2026-10-05T14:02:54.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2026-10-05T14:02:54.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-03-18T12:50:40.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-02-27T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-02-17T17:04:18.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-02-17T17:04:16.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-02-11T16:13:27.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-02-02T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-01-23T18:40:05.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-01-23T18:40:05.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-01-23T18:40:05.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 219,
+              "nome": "Procedência",
+              "dataHora": "2025-01-23T18:40:05.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-12-04T16:48:44.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-11-28T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-11-18T12:41:52.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-10-31T16:26:54.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-10-31T16:26:54.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-10-30T18:16:14.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-10-30T18:16:14.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-10-23T17:44:47.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-10-23T17:44:47.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-09-17T16:47:34.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-09-13T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-09-09T16:46:15.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-09-09T16:46:15.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-09-03T16:41:34.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-09-03T16:41:33.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 11383,
+              "nome": "Ato ordinatório",
+              "dataHora": "2024-09-03T16:41:33.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-08-08T11:13:26.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-07-25T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-07-15T13:39:51.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 11022,
+              "nome": "Julgamento em Diligência",
+              "dataHora": "2024-07-15T13:39:50.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-03-04T10:03:10.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12288,
+              "nome": "Confirmada",
+              "dataHora": "2024-02-05T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2024-01-29T16:10:24.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2024-01-29T16:10:24.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12287,
+              "nome": "Expedida/Certificada",
+              "dataHora": "2024-01-26T17:23:50.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2024-01-26T17:23:50.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 11383,
+              "nome": "Ato ordinatório",
+              "dataHora": "2024-01-26T17:23:49.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            }
+          ],
+          "id": "TRF4_JE_50003042620244047112",
+          "@timestamp": "2026-10-09T18:07:33.654000Z"
+        },
+        "_index": "api_publica_trf4",
+        "_score": 14.891804
+      },
+      {
+        "_id": "TRF4_TR_50003042620244047112",
+        "_source": {
+          "numeroProcesso": "50003042620244047112",
+          "tribunal": "TRF4",
+          "grau": "TR",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20250404153014",
+          "dataHoraUltimaAtualizacao": "2026-10-09T18:07:33.682000Z",
+          "classe": {
+            "codigo": 460,
+            "nome": "Recurso Inominado Cível"
+          },
+          "assuntos": [
+            {
+              "codigo": 14828,
+              "nome": "Urbano"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 47245,
+            "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+            "codigoMunicipioIBGE": 4314902
+          },
+          "sistema": {
+            "codigo": 4,
+            "nome": "Projudi"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2026-08-03T17:02:31.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "em grau de recurso",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 38
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-08-01T01:02:06.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-02-05T10:29:40.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 123,
+              "nome": "Remessa",
+              "dataHora": "2026-02-05T09:30:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "outros motivos",
+                  "descricao": "motivo_da_remessa",
+                  "codigo": 18,
+                  "valor": 40
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-02-05T01:02:41.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-01-27T12:42:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-10-24T16:41:56.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Acórdão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 117
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-10-02T14:55:50.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-09-30T01:16:53.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-10T11:14:07.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-08-20T09:15:52.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Acórdão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 117
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-07-31T02:19:27.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-04-04T17:02:37.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2025-04-04T15:30:14.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 22,
+              "nome": "Baixa Definitiva",
+              "dataHora": "2026-10-02T18:34:58.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Federal de Santana do Livramento",
+                "codigo": "11967"
+              }
+            },
+            {
+              "codigo": 132,
+              "nome": "Recebimento",
+              "dataHora": "2026-09-22T00:39:54.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-07-28T14:59:03.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2026-07-10T23:56:31.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2026-06-30T08:32:29.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2026-06-30T08:32:29.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 12454,
+              "nome": "Pedido de Uniformização de Interpretação de Lei",
+              "dataHora": "2026-06-30T08:32:29.000Z",
+              "orgaoJulgador": {
+                "nome": "Gabinete de Admissibilidade do Rio Grande do Sul",
+                "codigo": "47245"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-12-05T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-11-25T11:48:20.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-11-24T12:51:27.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-11-03T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-10-31T14:10:58.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-10-31T14:10:58.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-10-24T16:59:48.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-10-24T16:58:40.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 200,
+              "nome": "Não-Acolhimento de Embargos de Declaração",
+              "dataHora": "2025-10-24T14:54:49.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12116,
+              "nome": "Para julgamento de mérito",
+              "dataHora": "2025-10-14T16:16:32.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-09-21T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-09-11T14:00:48.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-11T05:15:11.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-10T10:46:04.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-04T15:35:57.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-08-30T23:59:59.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-08-28T21:28:08.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12266,
+              "nome": "Confirmada",
+              "dataHora": "2025-08-28T21:28:08.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-08-20T17:22:36.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-08-20T09:17:27.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12265,
+              "nome": "Expedida/certificada",
+              "dataHora": "2025-08-20T09:17:24.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12254,
+              "nome": "Sentença desconstituída",
+              "dataHora": "2025-08-19T17:10:37.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12282,
+              "nome": "Expedida/Certificada",
+              "dataHora": "2025-07-30T12:42:52.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 12104,
+              "nome": "Inclusão em pauta",
+              "dataHora": "2025-07-30T12:42:52.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-07-07T15:09:32.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-05-22T16:00:42.000Z",
+              "orgaoJulgador": {
+                "nome": "3ª Turma Recursal do Rio Grande do Sul",
+                "codigo": "17809"
+              }
+            }
+          ],
+          "id": "TRF4_TR_50003042620244047112",
+          "@timestamp": "2026-10-09T18:07:33.682000Z"
+        },
+        "_index": "api_publica_trf4",
+        "_score": 14.891804
+      }
+    ],
+    "max_score": 14.891804
+  },
+  "took": 23663,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  }
+}

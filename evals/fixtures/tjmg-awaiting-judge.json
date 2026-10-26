@@ -1,0 +1,528 @@
+{
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_id": "TJMG_G1_50112473620258130079",
+        "_source": {
+          "numeroProcesso": "50112473620258130079",
+          "tribunal": "TJMG",
+          "grau": "G1",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20250228221723",
+          "dataHoraUltimaAtualizacao": "2026-10-23T18:46:37.143000Z",
+          "classe": {
+            "codigo": 156,
+            "nome": "Cumprimento de sentença"
+          },
+          "assuntos": [
+            {
+              "codigo": 10880,
+              "nome": "Cumprimento Provisório de Sentença"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 5416,
+            "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+            "codigoMunicipioIBGE": 3118601
+          },
+          "sistema": {
+            "codigo": 1,
+            "nome": "PJe"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2025-02-28T22:17:24.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "dependência",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 4
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-04-15T15:25:16.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "convertido em diligência",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 98
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-04-15T15:25:23.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-19T11:28:39.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-05-21T00:46:02.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "em execução",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 20
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-05-21T00:46:02.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "inicial",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 21
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-05-29T00:22:23.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "desaforamento",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 28
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-05-29T17:41:50.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-06-10T11:43:47.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-07-16T23:16:34.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-08-28T15:58:09.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 1061,
+              "nome": "Disponibilização no Diário da Justiça Eletrônico",
+              "dataHora": "2025-08-30T00:27:17.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "erro material",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 29
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 92,
+              "nome": "Publicação",
+              "dataHora": "2025-09-01T00:22:51.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "competência exclusiva",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 1
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-09T09:53:47.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2025-09-30T00:33:40.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "erro material",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 29
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-10-22T12:57:36.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "convertido em diligência",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 98
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-10-22T17:02:00.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "convertido em diligência",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 98
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-10-23T15:39:13.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-01-23T17:16:48.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-02-09T16:18:38.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-02-19T13:48:17.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-04-28T16:54:45.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-05-05T08:32:21.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-05-15T13:53:32.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-06-11T11:23:32.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-06-11T11:24:51.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-07-02T00:16:55.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "competência exclusiva",
+                  "descricao": "data",
+                  "codigo": 14,
+                  "valor": 1
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-07-15T15:12:01.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "convertido em diligência",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 98
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-07-15T15:12:23.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2026-10-21T09:51:03.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-10-22T16:34:51.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2025-05-15T17:45:37.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 12282,
+              "nome": "Expedida/Certificada",
+              "dataHora": "2025-05-19T11:28:39.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 12164,
+              "nome": "Outras Decisões",
+              "dataHora": "2025-08-18T18:08:50.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 12282,
+              "nome": "Expedida/Certificada",
+              "dataHora": "2025-08-28T15:58:10.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2026-04-27T17:32:56.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2026-10-16T17:16:49.000Z",
+              "orgaoJulgador": {
+                "nome": "1ª Vara Empresarial, de Fazenda Pública e Registros Públicos  da Comarca de Contagem",
+                "codigo": "5416"
+              }
+            }
+          ],
+          "id": "TJMG_G1_50112473620258130079",
+          "@timestamp": "2026-10-23T18:46:37.143000Z"
+        },
+        "_index": "api_publica_tjmg",
+        "_score": 16.497547
+      }
+    ],
+    "max_score": 16.497547
+  },
+  "took": 23380,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  }
+}

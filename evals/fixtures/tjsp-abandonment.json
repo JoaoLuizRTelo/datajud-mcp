@@ -1,0 +1,1061 @@
+{
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_id": "TJSP_JE_00012796020258260223",
+        "_source": {
+          "numeroProcesso": "00012796020258260223",
+          "tribunal": "TJSP",
+          "grau": "JE",
+          "nivelSigilo": 0,
+          "dataAjuizamento": "20250227143518",
+          "dataHoraUltimaAtualizacao": "2026-10-26T17:54:15.279000Z",
+          "classe": {
+            "codigo": 436,
+            "nome": "Procedimento do Juizado Especial Cível"
+          },
+          "assuntos": [
+            {
+              "codigo": 9580,
+              "nome": "Espécies de Contratos"
+            }
+          ],
+          "orgaoJulgador": {
+            "codigo": 10836,
+            "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+            "codigoMunicipioIBGE": 3518701
+          },
+          "sistema": {
+            "codigo": 4,
+            "nome": "Projudi"
+          },
+          "formato": {
+            "codigo": 1,
+            "nome": "Eletrônico"
+          },
+          "movimentos": [
+            {
+              "codigo": 848,
+              "nome": "Trânsito em julgado",
+              "dataHora": "2026-09-21T11:45:22.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-08-06T14:45:43.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para julgamento",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 36
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 982,
+              "nome": "Remessa",
+              "dataHora": "2026-08-06T14:45:17.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-05-25T14:03:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-05-22T02:10:16.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 1051,
+              "nome": "Decurso de Prazo",
+              "dataHora": "2026-05-16T03:01:25.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-05-11T17:05:16.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Aviso de recebimento (AR)",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 74
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2026-05-07T11:01:19.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Aviso de recebimento (AR)",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 74
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-04-18T18:13:07.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2026-04-18T18:13:06.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2026-01-08T13:27:32.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 982,
+              "nome": "Remessa",
+              "dataHora": "2026-01-08T13:20:12.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2026-01-08T13:19:35.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-11-27T15:33:19.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-11-27T10:30:38.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-10-29T16:00:15.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-10-29T16:00:14.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-20T09:00:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-20T09:00:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-19T12:02:29.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-17T16:45:29.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-17T16:24:58.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-02T09:03:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-09-02T09:03:10.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-01T10:30:35.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-09-01T10:23:37.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-08-29T15:26:51.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-08-29T13:49:57.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 12444,
+              "nome": "deferimento",
+              "dataHora": "2025-08-18T13:36:50.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-08-18T11:37:36.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-08-18T11:35:39.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-06-16T15:45:29.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-06-16T15:45:26.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-06-16T15:45:12.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-06-16T15:45:09.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-06-12T15:41:49.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-06-11T22:01:23.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-06-11T22:01:23.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-06-11T11:14:01.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-06-09T21:00:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-06-09T21:00:19.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-05-06T06:12:24.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-05-06T06:12:19.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-05T13:17:23.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-05-05T13:16:31.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-04-30T09:56:42.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para despacho",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 5
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 106,
+              "nome": "Mandado",
+              "dataHora": "2025-04-30T09:55:43.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "entregue ao destinatário",
+                  "descricao": "resultado",
+                  "codigo": 6,
+                  "valor": 7
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-04-11T16:37:14.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Mandado",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 78
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-04-10T11:02:01.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-04-10T11:02:01.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-03-07T08:04:03.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-03-06T13:36:03.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Carta",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 170
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 51,
+              "nome": "Conclusão",
+              "dataHora": "2025-02-28T16:49:16.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "para decisão",
+                  "descricao": "tipo_de_conclusao",
+                  "codigo": 3,
+                  "valor": 6
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-02-28T16:47:26.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Certidão",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 107
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 581,
+              "nome": "Documento",
+              "dataHora": "2025-02-28T16:47:21.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 60,
+              "nome": "Expedição de documento",
+              "dataHora": "2025-02-28T16:47:06.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "Outros documentos",
+                  "descricao": "tipo_de_documento",
+                  "codigo": 4,
+                  "valor": 80
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 26,
+              "nome": "Distribuição",
+              "dataHora": "2025-02-27T14:46:39.000Z",
+              "complementosTabelados": [
+                {
+                  "nome": "sorteio",
+                  "descricao": "tipo_de_distribuicao_redistribuicao",
+                  "codigo": 2,
+                  "valor": 2
+                }
+              ],
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 22,
+              "nome": "Baixa Definitiva",
+              "dataHora": "2026-09-21T11:45:30.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 458,
+              "nome": "Abandono da causa",
+              "dataHora": "2026-08-06T16:39:28.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2026-05-25T14:36:18.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2026-01-08T14:17:02.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 11383,
+              "nome": "Ato ordinatório",
+              "dataHora": "2025-09-17T16:42:44.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 85,
+              "nome": "Petição",
+              "dataHora": "2025-09-17T16:24:59.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2025-08-29T16:17:15.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 11010,
+              "nome": "Mero expediente",
+              "dataHora": "2025-04-30T15:05:02.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            },
+            {
+              "codigo": 12164,
+              "nome": "Outras Decisões",
+              "dataHora": "2025-02-28T18:40:43.000Z",
+              "orgaoJulgador": {
+                "nome": "Juízo Titular I - Vara do Juizado Especial Cível e Criminal da Comarca de Guarujá",
+                "codigo": "10836"
+              }
+            }
+          ],
+          "id": "TJSP_JE_00012796020258260223",
+          "@timestamp": "2026-10-26T17:54:15.279000Z"
+        },
+        "_index": "api_publica_tjsp",
+        "_score": 14.371212
+      }
+    ],
+    "max_score": 14.371212
+  },
+  "took": 44600,
+  "timed_out": false,
+  "_shards": {
+    "total": 20,
+    "successful": 20,
+    "skipped": 0,
+    "failed": 0
+  }
+}
