@@ -1,0 +1,6 @@
+dist/
+coverage/
+.datajud-state/
+package-lock.json
+test/fixtures/
+evals/fixtures/
