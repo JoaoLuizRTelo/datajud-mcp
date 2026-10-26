@@ -6,6 +6,9 @@ export interface RetryOptions {
   /** Injected for deterministic tests. */
   random?: () => number;
   sleep?: (ms: number) => Promise<void>;
+  now?: () => number;
+  /** Absolute time (ms) after which no new attempt is started. */
+  deadline?: number;
   onRetry?: (info: { attempt: number; delayMs: number; error: unknown }) => void;
 }
 
@@ -46,6 +49,13 @@ export async function withRetry<T>(
       const hint = (error as RetryableError).details?.retryAfterMs;
       const delayMs =
         hint === undefined ? backoffDelay(attempt, options) : Math.min(hint, options.maxDelayMs);
+      // Out of time budget: waiting would only delay the same failure.
+      if (
+        options.deadline !== undefined &&
+        (options.now ?? Date.now)() + delayMs >= options.deadline
+      ) {
+        throw error;
+      }
       options.onRetry?.({ attempt, delayMs, error });
       await sleep(delayMs);
     }

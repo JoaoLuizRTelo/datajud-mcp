@@ -52,7 +52,12 @@ describe("normalizeCase (recorded TRF1 response)", () => {
 
   it("coerces string codes in movement court units", () => {
     const movements = (hit!._source.movimentos ?? []).map(normalizeMovement);
-    expect(movements[0]).toMatchObject({ code: 26, name: "Distribuição", courtUnit: "Tefé" });
+    expect(movements[0]).toMatchObject({
+      code: 26,
+      name: "Distribuição",
+      courtUnit: "Tefé",
+      hint: { kind: "filing" },
+    });
     expect(movements[0]!.complements[0]).toEqual({
       name: "competência exclusiva",
       description: "tipo_de_distribuicao_redistribuicao",
@@ -73,8 +78,26 @@ describe("normalizeCase (drifted / sparse documents)", () => {
   });
 });
 
+describe("normalizeMovement hints", () => {
+  it("explains context-free TPU leaf names and leaves unknown codes without a hint", () => {
+    expect(normalizeMovement({ codigo: 245, nome: "Provisório" }).hint).toEqual({
+      kind: "archival",
+      label: "Records archived provisionally (may be reopened)",
+    });
+    expect(normalizeMovement({ codigo: 999_999, nome: "?" }).hint).toBeNull();
+    expect(normalizeMovement({ nome: "no code" }).hint).toBeNull();
+  });
+});
+
 describe("sortMovements", () => {
-  const m = (at: string | null) => ({ code: 1, name: "x", at, complements: [], courtUnit: null });
+  const m = (at: string | null) => ({
+    code: 1,
+    name: "x",
+    at,
+    complements: [],
+    courtUnit: null,
+    hint: null,
+  });
 
   it("sorts newest first and puts undated movements last", () => {
     const sorted = sortMovements([m("2020-01-01T00:00:00Z"), m(null), m("2022-01-01T00:00:00Z")]);

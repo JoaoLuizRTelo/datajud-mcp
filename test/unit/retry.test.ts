@@ -68,6 +68,21 @@ describe("withRetry", () => {
     expect(sleep.mock.calls).toEqual([[3000], [20_000]]);
   });
 
+  it("stops retrying when the next wait would pass the deadline", async () => {
+    let now = 0;
+    const sleep = vi.fn((ms: number) => {
+      now += ms;
+      return Promise.resolve();
+    });
+    const fn = vi.fn(() => Promise.reject(retryable()));
+    // Delays with random 0.5: 500, 1000, 2000... Deadline 1200 allows only the first wait.
+    await expect(
+      withRetry(fn, { ...base, maxAttempts: 10, sleep, now: () => now, deadline: 1200 }),
+    ).rejects.toThrow("transient");
+    expect(fn).toHaveBeenCalledTimes(2);
+    expect(sleep.mock.calls).toEqual([[500]]);
+  });
+
   it("works with real timers", async () => {
     vi.useFakeTimers();
     try {

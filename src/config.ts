@@ -7,6 +7,7 @@ const envSchema = z.object({
     .min(1, "DATAJUD_API_KEY is empty."),
   DATAJUD_BASE_URL: z.url().default("https://api-publica.datajud.cnj.jus.br"),
   DATAJUD_TIMEOUT_MS: z.coerce.number().int().positive().default(90_000),
+  DATAJUD_TOTAL_TIMEOUT_MS: z.coerce.number().int().positive().default(180_000),
   DATAJUD_MAX_ATTEMPTS: z.coerce.number().int().min(1).max(10).default(4),
   DATAJUD_REQUESTS_PER_MINUTE: z.coerce.number().int().min(1).max(120).default(120),
 });
@@ -14,7 +15,10 @@ const envSchema = z.object({
 export interface DataJudConfig {
   apiKey: string;
   baseUrl: string;
+  /** Per HTTP attempt. */
   timeoutMs: number;
+  /** Across all attempts and backoff waits of one search. */
+  totalTimeoutMs: number;
   maxAttempts: number;
   requestsPerMinute: number;
 }
@@ -38,6 +42,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): DataJudConfig 
     apiKey: e.DATAJUD_API_KEY,
     baseUrl: e.DATAJUD_BASE_URL.replace(/\/+$/, ""),
     timeoutMs: e.DATAJUD_TIMEOUT_MS,
+    totalTimeoutMs: e.DATAJUD_TOTAL_TIMEOUT_MS,
     maxAttempts: e.DATAJUD_MAX_ATTEMPTS,
     requestsPerMinute: e.DATAJUD_REQUESTS_PER_MINUTE,
   };

@@ -14,6 +14,7 @@ const config: DataJudConfig = {
   apiKey: "public-key",
   baseUrl: "https://datajud.test",
   timeoutMs: 1000,
+  totalTimeoutMs: 60_000,
   maxAttempts: 4,
   requestsPerMinute: 120,
 };
@@ -92,6 +93,80 @@ describe("DataJudClient.search", () => {
     const error = await expectKind(client.search("tjsp", {}), "timeout");
     expect(error.message).toMatch(/within 1 s/);
     expect(calls).toHaveLength(4);
+  });
+
+  it("does not retry when the caller cancels", async () => {
+    const controller = new AbortController();
+    controller.abort();
+    const { client, calls } = clientWith([
+      { error: new DOMException("aborted", "AbortError") },
+      { status: 200, body: emptyResponse },
+    ]);
+    await expectKind(client.search("tjsp", {}, { signal: controller.signal }), "cancelled");
+    expect(calls).toHaveLength(1);
+  });
+
+  it("clips each attempt's timeout to the remaining total budget", async () => {
+    let now = 0;
+    const fake = fakeFetch([{ error: timeoutError() }, { status: 200, body: emptyResponse }]);
+    const seen: number[] = [];
+    const client = new DataJudClient(
+      { ...config, timeoutMs: 90_000, totalTimeoutMs: 100_000 },
+      {
+        fetch: (input, init) => {
+          seen.push(now);
+          now += 95_000; // the first attempt burns most of the budget
+          return fake.fetch(input, init);
+        },
+        now: () => now,
+        sleep: (ms) => {
+          now += ms;
+          return Promise.resolve();
+        },
+        random: () => 0.001,
+      },
+    );
+    await client.search("tjsp", {});
+    expect(seen).toHaveLength(2);
+  });
+
+  it("gives up once the total budget is spent", async () => {
+    let now = 0;
+    const fake = fakeFetch(Array.from({ length: 4 }, () => ({ error: timeoutError() })));
+    const client = new DataJudClient(
+      { ...config, timeoutMs: 90_000, totalTimeoutMs: 100_000 },
+      {
+        fetch: (input, init) => {
+          now += 90_000;
+          return fake.fetch(input, init);
+        },
+        now: () => now,
+        sleep: (ms) => {
+          now += ms;
+          return Promise.resolve();
+        },
+        random: () => 0.5,
+      },
+    );
+    await expectKind(client.search("tjsp", {}), "timeout");
+    expect(fake.calls).toHaveLength(2);
+  });
+
+  it("retries 200 responses with failed shards instead of returning partial results", async () => {
+    const partial = {
+      _shards: { total: 3, successful: 1, skipped: 0, failed: 2 },
+      hits: { total: { value: 0, relation: "eq" }, hits: [] },
+    };
+    const { client, calls } = clientWith([
+      { status: 200, body: partial },
+      { status: 200, body: { _shards: { total: 3, successful: 3, failed: 0 }, ...emptyResponse } },
+    ]);
+    await client.search("tjsp", {});
+    expect(calls).toHaveLength(2);
+
+    const failing = clientWith(Array.from({ length: 4 }, () => ({ status: 200, body: partial })));
+    const error = await expectKind(failing.client.search("tjsp", {}), "partial_results");
+    expect(error.message).toMatch(/only 1 of 3 shards/);
   });
 
   it("treats ES overload as rate limiting even when reported as HTTP 400", async () => {

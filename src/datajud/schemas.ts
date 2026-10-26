@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { formatCnjDigits } from "./cnj-number.js";
+import { MOVEMENT_KINDS, movementHint } from "./tpu.js";
 
 /* ------------------------------------------------------------------------------------------------
  * Raw DataJud response. Deliberately lenient: the live API drifts from the published glossary
@@ -44,6 +45,9 @@ const rawCase = z.looseObject({
 });
 
 export const rawSearchResponse = z.looseObject({
+  _shards: z
+    .looseObject({ total: z.number(), successful: z.number(), failed: z.number() })
+    .optional(),
   hits: z.looseObject({
     total: z.looseObject({ value: z.number(), relation: z.string() }).optional(),
     hits: z.array(
@@ -75,6 +79,13 @@ export const movementSchema = z.object({
     .array(z.object({ name: z.string(), description: z.string() }))
     .describe("Structured complements, e.g. hearing type or document type"),
   courtUnit: z.string().nullable(),
+  hint: z
+    .object({
+      kind: z.enum(MOVEMENT_KINDS),
+      label: z.string(),
+    })
+    .nullable()
+    .describe("Plain-English meaning of the TPU code, when known (heuristic, not legal advice)"),
 });
 
 export const caseRecordSchema = z.object({
@@ -117,8 +128,9 @@ export function normalizeDate(value: string | undefined): string | null {
 }
 
 export function normalizeMovement(raw: RawMovement): Movement {
+  const code = raw.codigo ?? null;
   return {
-    code: raw.codigo ?? null,
+    code,
     name: raw.nome ?? "(unnamed movement)",
     at: normalizeDate(raw.dataHora),
     complements: (raw.complementosTabelados ?? []).map((c) => ({
@@ -126,6 +138,7 @@ export function normalizeMovement(raw: RawMovement): Movement {
       description: c.descricao ?? "",
     })),
     courtUnit: raw.orgaoJulgador?.nome ?? raw.orgaoJulgador?.nomeOrgao ?? null,
+    hint: movementHint(code),
   };
 }
 

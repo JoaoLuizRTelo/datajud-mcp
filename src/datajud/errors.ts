@@ -6,6 +6,8 @@ export type DataJudErrorKind =
   | "upstream"
   | "timeout"
   | "network"
+  | "partial_results"
+  | "cancelled"
   | "invalid_response";
 
 const RETRYABLE: ReadonlySet<DataJudErrorKind> = new Set([
@@ -13,6 +15,7 @@ const RETRYABLE: ReadonlySet<DataJudErrorKind> = new Set([
   "upstream",
   "timeout",
   "network",
+  "partial_results",
 ]);
 
 /** Every failure talking to DataJud is one of these, with a message written for the end user. */

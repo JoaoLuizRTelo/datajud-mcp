@@ -7,6 +7,7 @@ describe("loadConfig", () => {
       apiKey: "k",
       baseUrl: "https://api-publica.datajud.cnj.jus.br",
       timeoutMs: 90_000,
+      totalTimeoutMs: 180_000,
       maxAttempts: 4,
       requestsPerMinute: 120,
     });
