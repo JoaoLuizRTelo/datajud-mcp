@@ -1,0 +1,10 @@
+{
+  "description": "Only routine movements recently: petition filed, records sent to the judge",
+  "input": { "cnjNumber": "5011247-36.2025.8.13.0079" },
+  "fixture": "tjmg-awaiting-judge.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "active",
+    "needsLawyerAttention": false
+  }
+}

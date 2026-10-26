@@ -7,3 +7,4 @@ coverage/
 .datajud-state/
 *.log
 .DS_Store
+evals/results/

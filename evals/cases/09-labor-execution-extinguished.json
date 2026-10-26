@@ -1,0 +1,10 @@
+{
+  "description": "Labor case: enforcement extinguished and records archived permanently",
+  "input": { "cnjNumber": "1001145-34.2025.5.02.0029" },
+  "fixture": "trt2-execution-extinguished.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "archived",
+    "needsLawyerAttention": false
+  }
+}

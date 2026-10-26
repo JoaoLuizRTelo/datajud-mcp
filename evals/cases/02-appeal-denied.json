@@ -1,0 +1,11 @@
+{
+  "description": "Appeal (G2) dismissed 3 days before the as-of date; first instance also present",
+  "input": { "cnjNumber": "0037247-14.2018.4.01.3300" },
+  "fixture": "trf1-appeal-denied.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "decided",
+    "needsLawyerAttention": true,
+    "mustIncludeMovements": ["Não-Provimento"]
+  }
+}

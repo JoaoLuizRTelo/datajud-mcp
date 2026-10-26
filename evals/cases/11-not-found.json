@@ -1,0 +1,10 @@
+{
+  "description": "Valid number that DataJud does not know",
+  "input": { "cnjNumber": "0000001-05.2025.8.26.0100" },
+  "fixture": "tjsp-not-found.json",
+  "expected": {
+    "found": false,
+    "statusCategory": "unknown",
+    "needsLawyerAttention": false
+  }
+}

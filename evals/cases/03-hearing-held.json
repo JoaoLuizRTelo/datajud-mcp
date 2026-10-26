@@ -1,0 +1,11 @@
+{
+  "description": "Evidentiary hearing held and writs served 4 days before the as-of date",
+  "input": { "cnjNumber": "5000517-54.2025.8.13.0082" },
+  "fixture": "tjmg-hearing-held.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "active",
+    "needsLawyerAttention": true,
+    "mustIncludeMovements": ["de Instrução e Julgamento"]
+  }
+}

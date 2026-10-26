@@ -1,0 +1,10 @@
+{
+  "description": "Superior court record (origin number from TJSP) with final judgment and discharge",
+  "input": { "cnjNumber": "1035289-48.2022.8.26.0602", "court": "stj" },
+  "fixture": "stj-final-discharge.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "archived",
+    "needsLawyerAttention": false
+  }
+}

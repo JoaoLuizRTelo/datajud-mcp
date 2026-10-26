@@ -1,0 +1,10 @@
+{
+  "description": "Appeal suspended again by court order two months before the as-of date",
+  "input": { "cnjNumber": "5006842-62.2022.8.21.0006" },
+  "fixture": "tjrs-suspended.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "suspended",
+    "mustIncludeMovements": ["Por decisão judicial"]
+  }
+}

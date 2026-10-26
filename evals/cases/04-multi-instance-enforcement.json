@@ -1,0 +1,10 @@
+{
+  "description": "Appeal instance closed; first instance moved into enforcement with fresh notices",
+  "input": { "cnjNumber": "5000304-26.2024.4.04.7112" },
+  "fixture": "trf4-multi-instance.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "active",
+    "needsLawyerAttention": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Enforcement archived provisionally after a request was denied",
+  "input": { "cnjNumber": "0710220-77.2024.8.07.0010" },
+  "fixture": "tjdft-archived-provisional.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "archived",
+    "mustIncludeMovements": ["Provisório"]
+  }
+}

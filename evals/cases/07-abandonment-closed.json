@@ -1,0 +1,10 @@
+{
+  "description": "Small-claims case dismissed for abandonment, final and formally closed",
+  "input": { "cnjNumber": "0001279-60.2025.8.26.0223" },
+  "fixture": "tjsp-abandonment.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "archived",
+    "needsLawyerAttention": false
+  }
+}

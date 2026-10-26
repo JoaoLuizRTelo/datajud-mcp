@@ -1,0 +1,11 @@
+{
+  "description": "Criminal case with a conviction (Procedência) 18 days before the as-of date",
+  "input": { "cnjNumber": "0713383-43.2025.8.07.0006" },
+  "fixture": "tjdft-judgment-granted.json",
+  "expected": {
+    "found": true,
+    "statusCategory": "decided",
+    "needsLawyerAttention": true,
+    "mustIncludeMovements": ["Procedência"]
+  }
+}
