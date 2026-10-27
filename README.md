@@ -8,20 +8,26 @@ An [MCP](https://modelcontextprotocol.io) server for **DataJud**, the official p
 
 DataJud exposes the public metadata of cases from 91 Brazilian courts through a single Elasticsearch endpoint. The API is slow, loosely documented, and has a few traps that silently return wrong answers. This project wraps it in typed, validated, retry-safe tools that any MCP client (Claude Desktop, Claude Code, your own agent) can use. The agent shows how to build on top of them with production habits: bounded loops, structured outputs, cost gates and offline evals.
 
-<!-- Demo: record with `vhs scripts/demo.tape` and commit docs/demo.gif -->
-<!-- ![demo](docs/demo.gif) -->
+![demo](docs/demo.gif)
 
 ## Contents
 
-- [Architecture](#architecture)
-- [MCP tools](#mcp-tools)
-- [Quickstart](#quickstart)
-- [Example agent](#example-agent)
-- [Design decisions](#design-decisions)
-- [What I learned about the live API](#what-i-learned-about-the-live-api)
-- [Testing and evals](#testing-and-evals)
-- [Limitations](#limitations)
-- [Terms of use](#terms-of-use)
+- [datajud-mcp](#datajud-mcp)
+  - [Contents](#contents)
+  - [Architecture](#architecture)
+  - [MCP tools](#mcp-tools)
+  - [Quickstart](#quickstart)
+    - [Run the server](#run-the-server)
+    - [Connect it to Claude Code](#connect-it-to-claude-code)
+    - [Connect it to Claude Desktop](#connect-it-to-claude-desktop)
+  - [Example agent](#example-agent)
+  - [Design decisions](#design-decisions)
+  - [What I learned about the live API](#what-i-learned-about-the-live-api)
+  - [Testing and evals](#testing-and-evals)
+  - [Limitations](#limitations)
+  - [Terms of use](#terms-of-use)
+  - [Project structure](#project-structure)
+  - [License](#license)
 
 ## Architecture
 
@@ -154,9 +160,89 @@ npm run agent -- 0713383-43.2025.8.07.0006 --force       # bypass the pre-check
 ./scripts/demo.sh                                        # the two-run demo used for the GIF
 ```
 
-The CLI starts the MCP server as a child process, runs the pre-check, and if anything changed lets Claude call the tools and answer with a schema-constrained `CaseSummary`.
+The CLI starts the MCP server as a child process, runs the pre-check, and if anything changed lets Claude call the tools and answer with a schema-constrained `CaseSummary`:
 
-<!-- EXAMPLE_OUTPUT -->
+```json
+> datajud-mcp@0.1.0 agent
+> tsx examples/agent/cli.ts 0713383-43.2025.8.07.0006
+
+datajud-mcp 0.1.0 running on stdio
+[precheck] fetching movement counts (no LLM call)...
+list_movements: Waiting for DataJud (10 s)
+list_movements: Waiting for DataJud (20 s)
+list_movements: Waiting for DataJud (30 s)
+[precheck] first check of this case.
+[agent] iteration 1: stop_reason=tool_use
+[agent] → get_case {"cnjNumber":"0713383-43.2025.8.07.0006","court":"tjdft"}
+[agent] → list_movements {"cnjNumber":"0713383-43.2025.8.07.0006","court":"tjdft"}
+get_case: Waiting for DataJud (10 s)
+list_movements: Waiting for DataJud (10 s)
+get_case: Waiting for DataJud (20 s)
+list_movements: Waiting for DataJud (20 s)
+get_case: Waiting for DataJud (30 s)
+[agent] iteration 2: stop_reason=end_turn
+{
+  "skipped": false,
+  "summary": {
+    "cnjNumber": "0713383-43.2025.8.07.0006",
+    "court": "tjdft",
+    "found": true,
+    "currentStatus": "First-instance criminal case (ação penal, ordinary procedure) at the Vara Criminal de Sobradinho. A judgment of Procedência (a conviction) was issued on 2026-10-08. No final judgment (trânsito em julgado) or archiving is recorded, so the case is not closed.",
+    "statusCategory": "decided",
+    "lastRelevantMovements": [
+      {
+        "date": "2026-10-08",
+        "instance": "G1",
+        "name": "Procedência",
+        "whyRelevant": "Judgment on the merits with the claim granted. In a criminal case this is a conviction. It was issued 18 days before today."
+      },
+      {
+        "date": "2026-04-23",
+        "instance": "G1",
+        "name": "de Instrução e Julgamento",
+        "whyRelevant": "The evidentiary and judgment hearing was held. It was the last hearing before the final pleadings and the judgment."
+      },
+      {
+        "date": "2026-04-06",
+        "instance": "G1",
+        "name": "Mandado",
+        "whyRelevant": "A court writ was delivered to the recipient."
+      },
+      {
+        "date": "2025-12-12",
+        "instance": "G1",
+        "name": "de Instrução e Julgamento",
+        "whyRelevant": "The evidentiary and judgment hearing was scheduled (designada)."
+      },
+      {
+        "date": "2025-12-09",
+        "instance": "G1",
+        "name": "Decisão de Saneamento e Organização",
+        "whyRelevant": "Saneamento decision that organized the case before the hearing."
+      }
+    ],
+    "needsLawyerAttention": true,
+    "attentionReasons": [
+      "A judgment (Procedência, a conviction) was issued on 2026-10-08, within the last 30 days, and the case is not closed. The appeal period may be running."
+    ],
+    "confidence": "high"
+  },
+  "meta": {
+    "model": "claude-sonnet-5-5",
+    "iterations": 2,
+    "toolCalls": [
+      "get_case",
+      "list_movements"
+    ],
+    "usage": {
+      "inputTokens": 6,
+      "outputTokens": 765,
+      "cacheReadInputTokens": 5453,
+      "cacheCreationInputTokens": 8565
+    }
+  }
+}
+```
 
 Run it again with nothing new on DataJud and no LLM call is made:
 
@@ -212,7 +298,19 @@ npm run evals   # real Claude API, recorded DataJud data
 - **Fixtures:** DataJud responses recorded with `npm run record-fixture` (public metadata only; DataJud has no party data).
 - **Evals:** 11 recorded cases covering every status category, multi-instance cases, a superior-court record and a not-found case. Grading is deterministic and touches only structured fields: `found`, `statusCategory`, `needsLawyerAttention` where it is unambiguous, and required movements. Evals run against a fixed "today" so recency rules are reproducible. They are not part of CI because they need a paid API key.
 
-<!-- EVAL_RESULTS -->
+| Case                            | Result | Status                   | Attention        | Iterations | Notes |
+| ------------------------------- | ------ | ------------------------ | ---------------- | ---------- | ----- |
+| 01-judgment-granted             | PASS   | ✅ decided → decided     | ✅ true → true   | 2          |       |
+| 02-appeal-denied                | PASS   | ✅ decided → decided     | ✅ true → true   | 2          |       |
+| 03-hearing-held                 | PASS   | ✅ active → active       | ✅ true → true   | 2          |       |
+| 04-multi-instance-enforcement   | PASS   | ✅ active → active       | ✅ true → true   | 2          |       |
+| 05-suspended                    | PASS   | ✅ suspended → suspended | –                | 2          |       |
+| 06-archived-provisional         | PASS   | ✅ archived → archived   | –                | 2          |       |
+| 07-abandonment-closed           | PASS   | ✅ archived → archived   | ✅ false → false | 2          |       |
+| 08-stj-closed                   | PASS   | ✅ archived → archived   | ✅ false → false | 2          |       |
+| 09-labor-execution-extinguished | PASS   | ✅ archived → archived   | ✅ false → false | 2          |       |
+| 10-awaiting-judge               | PASS   | ✅ active → active       | ✅ false → false | 2          |       |
+| 11-not-found                    | PASS   | ✅ unknown → unknown     | ✅ false → false | 2          |       |
 
 ## Limitations
 
